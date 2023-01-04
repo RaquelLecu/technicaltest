@@ -47,7 +47,10 @@ function App () {
       <ListPersons data={ persons }/>
       <h2>Part 3</h2>
       <button onClick= { addPersonsURL }>New Person</button>
-      <ListPersons data={ personsURL }/>
+      {!post ? (<p>oops...something went wrong</p>) 
+      : (<ListPersons data={ personsURL }/>)
+      }
+      
     </div>
   )
 }
