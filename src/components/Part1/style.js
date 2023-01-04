@@ -13,11 +13,13 @@ export const FullName = styled.p`
     margin-block-start: 0.3em;
 `
 export const Email = styled.p`
-    color: rgb(90, 90, 90);
+    color: grey;
+    font-weight: 500;
     margin-block-end: 0.1em;
     margin-block-start: 0.5em;
 `
 export const Person = styled.li`
     list-style: none;
     position: relative;
+    margin: 0.3em;
 `
